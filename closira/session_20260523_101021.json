@@ -1,0 +1,72 @@
+{
+  "session_id": "20260523_101021",
+  "timestamp": "2026-05-23T10:10:59.258567",
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "customer",
+      "text": "What consultations do you offer?",
+      "timestamp": "2026-05-23T10:10:21.821527"
+    },
+    {
+      "turn": 1,
+      "role": "bloom",
+      "text": "We offer a free 30-minute consultation with one of our trained aesthetic practitioners to discuss your goals and recommend a treatment plan.",
+      "timestamp": "2026-05-23T10:10:31.916145"
+    },
+    {
+      "turn": 2,
+      "role": "customer",
+      "text": "Are consultations really free?",
+      "timestamp": "2026-05-23T10:10:31.951931"
+    },
+    {
+      "turn": 2,
+      "role": "bloom",
+      "text": "Yes, our consultations are completely free of charge. We believe it's a great way to discuss your goals and determine the best treatment plan for you.",
+      "timestamp": "2026-05-23T10:10:41.027155"
+    },
+    {
+      "turn": 3,
+      "role": "customer",
+      "text": "Great, I'd like to book one. I'm free Saturdays.",
+      "timestamp": "2026-05-23T10:10:41.052828"
+    },
+    {
+      "turn": 3,
+      "role": "bloom",
+      "text": "Our clinic is open on Saturdays from 9:00 AM to 7:00 PM. You can book a consultation via our website at www.bloomaesthetics.com or through WhatsApp. Which method do you prefer to book your appointment?",
+      "timestamp": "2026-05-23T10:10:51.064770"
+    }
+  ],
+  "qualification_data": {
+    "business_type": null,
+    "team_size": null,
+    "current_tools": null,
+    "preferred_day": "Saturday"
+  },
+  "escalated": false,
+  "escalation_reason": null,
+  "sop_gaps": [],
+  "summary": {
+    "session_id": "20260523_101021",
+    "timestamp": "2026-05-23T10:10:51.066787",
+    "customer_intent": "The customer inquired about consultations and booked a free consultation for a Saturday.",
+    "key_details_collected": {
+      "services_enquired": [
+        "Consultation"
+      ],
+      "qualification_data": {
+        "primary_interest": "Consultation",
+        "prior_treatments": null,
+        "preferred_contact": null
+      },
+      "escalated": false,
+      "escalation_reason": null
+    },
+    "sop_gaps": [],
+    "recommended_next_action": "Book free consultation via website or WhatsApp",
+    "conversation_quality": "good",
+    "notes": "Customer prefers Saturdays, clinic hours on Saturdays are 9:00 AM to 7:00 PM."
+  }
+}

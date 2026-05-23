@@ -1,0 +1,71 @@
+{
+  "session_id": "20260523_171134",
+  "timestamp": "2026-05-23T17:12:12.373882",
+  "transcript": [
+    {
+      "turn": 1,
+      "role": "customer",
+      "text": "What consultations do you offer?",
+      "timestamp": "2026-05-23T17:11:34.655443"
+    },
+    {
+      "turn": 1,
+      "role": "bloom",
+      "text": "We offer a free 30-minute consultation with one of our trained aesthetic practitioners to discuss your goals and recommend a treatment plan.",
+      "timestamp": "2026-05-23T17:11:45.190488"
+    },
+    {
+      "turn": 2,
+      "role": "customer",
+      "text": "Are consultations really free?",
+      "timestamp": "2026-05-23T17:11:45.193513"
+    },
+    {
+      "turn": 2,
+      "role": "bloom",
+      "text": "Yes, our consultations are completely free of charge. They're a great opportunity for you to discuss your goals and receive personalized recommendations from one of our trained aesthetic practitioners.",
+      "timestamp": "2026-05-23T17:11:56.285081"
+    },
+    {
+      "turn": 3,
+      "role": "customer",
+      "text": "Great, I'd like to book one. I'm free Saturdays.",
+      "timestamp": "2026-05-23T17:11:56.285081"
+    },
+    {
+      "turn": 3,
+      "role": "bloom",
+      "text": "We're open on Saturdays from 9:00 AM to 7:00 PM. You can book a consultation via our website at www.bloomaesthetics.com or through WhatsApp. Which method do you prefer?",
+      "timestamp": "2026-05-23T17:12:06.127648"
+    }
+  ],
+  "qualification_data": {
+    "business_type": null,
+    "team_size": null,
+    "current_tools": null
+  },
+  "escalated": false,
+  "escalation_reason": null,
+  "sop_gaps": [],
+  "summary": {
+    "session_id": "20260523_171134",
+    "timestamp": "2026-05-23T17:12:06.127648",
+    "customer_intent": "The customer inquired about consultations and proceeded to book a free consultation on a Saturday.",
+    "key_details_collected": {
+      "services_enquired": [
+        "Consultation"
+      ],
+      "qualification_data": {
+        "primary_interest": "Consultation",
+        "prior_treatments": null,
+        "preferred_contact": null
+      },
+      "escalated": false,
+      "escalation_reason": null
+    },
+    "sop_gaps": [],
+    "recommended_next_action": "Book free consultation via website or WhatsApp",
+    "conversation_quality": "good",
+    "notes": "Customer showed interest in a free consultation and was provided with booking options."
+  }
+}

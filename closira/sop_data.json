@@ -1,0 +1,79 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "tagline": "Premium Aesthetic Treatments for Natural Beauty",
+    "hours": {
+      "weekdays": "Monday to Saturday, 9:00 AM – 7:00 PM",
+      "sunday": "Closed"
+    },
+    "contact": {
+      "booking_channels": ["WhatsApp", "Website"],
+      "website": "www.bloomaesthetics.com"
+    }
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "description": "Anti-wrinkle injections to relax facial muscles and reduce the appearance of fine lines and wrinkles.",
+      "starting_price": 200,
+      "currency": "GBP",
+      "areas": ["forehead", "frown lines", "crow's feet", "bunny lines"],
+      "duration_minutes": 30,
+      "downtime": "Minimal. Avoid strenuous activity for 24 hours.",
+      "results_visible_in": "3–7 days",
+      "results_last": "3–4 months"
+    },
+    {
+      "name": "Dermal Fillers",
+      "description": "Injectable gel to restore volume, smooth lines, and enhance facial contours.",
+      "starting_price": 250,
+      "currency": "GBP",
+      "areas": ["lips", "cheeks", "nasolabial folds", "jawline", "under-eye"],
+      "duration_minutes": 45,
+      "downtime": "Mild swelling/bruising possible for 1–3 days.",
+      "results_visible_in": "Immediately",
+      "results_last": "9–18 months"
+    },
+    {
+      "name": "Consultation",
+      "description": "A free face-to-face consultation with one of our trained aesthetic practitioners to discuss your goals and recommend a treatment plan.",
+      "starting_price": 0,
+      "currency": "GBP",
+      "duration_minutes": 30,
+      "note": "Consultation required before first treatment."
+    }
+  ],
+  "booking_policy": {
+    "how_to_book": "Bookings can be made via WhatsApp or through the website.",
+    "cancellation_policy": "A minimum of 24 hours notice is required for cancellations or rescheduling. Late cancellations may incur a fee.",
+    "deposit": "A deposit may be required to secure your appointment.",
+    "age_requirement": "Clients must be 18 years or older to receive treatments."
+  },
+  "escalation_triggers": [
+    "complaint or dissatisfaction",
+    "medical question (allergies, medications, contraindications)",
+    "pricing negotiation or discount request",
+    "more than 2 unanswered questions in a row",
+    "explicit request to speak to a human",
+    "angry or aggressive sentiment",
+    "post-treatment concerns or adverse reactions"
+  ],
+  "faqs": [
+    {
+      "question": "Is Botox safe?",
+      "answer": "Bloom Aesthetics only uses licensed, trained practitioners and approved products. For specific medical concerns, we recommend booking a free consultation."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book via WhatsApp or through our website at www.bloomaesthetics.com."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "We require at least 24 hours notice for any cancellations or rescheduling."
+    },
+    {
+      "question": "Do you offer free consultations?",
+      "answer": "Yes! We offer free 30-minute consultations with one of our practitioners. It's a great place to start if you're unsure which treatment is right for you."
+    }
+  ]
+}

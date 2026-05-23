@@ -1,0 +1,174 @@
+[
+  {
+    "session_id": "20260523_094557",
+    "timestamp": "2026-05-23T09:46:34.104529",
+    "turn": 1,
+    "reason": "API Error: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}",
+    "transcript_so_far": [
+      {
+        "turn": 0,
+        "role": "customer",
+        "text": "Hi, I'd like some information about your clinic.",
+        "timestamp": "2026-05-23T09:45:58.438424"
+      },
+      {
+        "turn": 0,
+        "role": "bloom",
+        "text": "I'm experiencing technical difficulties. Please try again.",
+        "timestamp": "2026-05-23T09:45:58.438424"
+      },
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "hi",
+        "timestamp": "2026-05-23T09:46:33.511886"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_100258",
+    "timestamp": "2026-05-23T10:07:20.642652",
+    "turn": 4,
+    "reason": "Out-of-scope question: request for specific staff names",
+    "transcript_so_far": [
+      {
+        "turn": 0,
+        "role": "customer",
+        "text": "Hi, I'd like some information about your clinic.",
+        "timestamp": "2026-05-23T10:03:00.993723"
+      },
+      {
+        "turn": 0,
+        "role": "bloom",
+        "text": "Welcome to Bloom Aesthetics Clinic, where we offer premium aesthetic treatments for natural beauty. We're open from Monday to Saturday, 9:00 AM \u2013 7:00 PM, and closed on Sundays. You can book an appointment via WhatsApp or through our website at www.bloomaesthetics.com. What brings you to our clinic, and what are you interested in learning more about?",
+        "timestamp": "2026-05-23T10:03:00.993723"
+      },
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "Hi, what services do you offer?",
+        "timestamp": "2026-05-23T10:03:22.496456"
+      },
+      {
+        "turn": 1,
+        "role": "bloom",
+        "text": "At Bloom Aesthetics Clinic, we offer a range of services including Botox, Dermal Fillers, and free consultations with our trained aesthetic practitioners. Botox is used to relax facial muscles and reduce fine lines and wrinkles, while Dermal Fillers restore volume and smooth lines. We also offer a free 30-minute consultation to discuss your goals and recommend a treatment plan. Would you like to know more about a specific treatment or what brings you to consider aesthetic treatments?",
+        "timestamp": "2026-05-23T10:03:23.862722"
+      },
+      {
+        "turn": 2,
+        "role": "customer",
+        "text": "How much does Botox cost?",
+        "timestamp": "2026-05-23T10:05:50.650010"
+      },
+      {
+        "turn": 2,
+        "role": "bloom",
+        "text": "Our Botox treatments start at \u00a3200. The price may vary depending on the areas being treated and the number of sessions required. We offer Botox for forehead, frown lines, crow's feet, and bunny lines. If you're interested in learning more, I can also offer you a free consultation with one of our practitioners. Have you had any aesthetic treatments before?",
+        "timestamp": "2026-05-23T10:05:51.954849"
+      },
+      {
+        "turn": 3,
+        "role": "customer",
+        "text": "Where does your clinic located?",
+        "timestamp": "2026-05-23T10:06:35.438588"
+      },
+      {
+        "turn": 3,
+        "role": "bloom",
+        "text": "I'm not able to provide the exact location of our clinic as it's not specified in our information. However, you can find more details about our clinic and book an appointment through our website at www.bloomaesthetics.com or via WhatsApp. Would you like to book a consultation or learn more about our services?",
+        "timestamp": "2026-05-23T10:06:36.816943"
+      },
+      {
+        "turn": 4,
+        "role": "customer",
+        "text": "may I know your doctor's name?",
+        "timestamp": "2026-05-23T10:07:19.215729"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_100949",
+    "timestamp": "2026-05-23T10:09:50.134459",
+    "turn": 1,
+    "reason": "Service not listed in SOP",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "Do you offer laser hair removal?",
+        "timestamp": "2026-05-23T10:09:49.051112"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_100951",
+    "timestamp": "2026-05-23T10:09:52.489886",
+    "turn": 1,
+    "reason": "Post-treatment concern: customer experiencing swelling",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "I had a treatment last week and my face is still swollen. I'm really unhappy.",
+        "timestamp": "2026-05-23T10:09:51.074565"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_171043",
+    "timestamp": "2026-05-23T17:10:45.026055",
+    "turn": 1,
+    "reason": "Out-of-scope question: laser hair removal not mentioned in SOP",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "Do you offer laser hair removal?",
+        "timestamp": "2026-05-23T17:10:43.907135"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_171045",
+    "timestamp": "2026-05-23T17:10:53.630220",
+    "turn": 1,
+    "reason": "Post-treatment concern",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "I had a treatment last week and my face is still swollen. I'm really unhappy.",
+        "timestamp": "2026-05-23T17:10:45.956671"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_173319",
+    "timestamp": "2026-05-23T17:33:20.473979",
+    "turn": 1,
+    "reason": "Out-of-scope question: laser hair removal",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "Do you offer laser hair removal?",
+        "timestamp": "2026-05-23T17:33:19.516782"
+      }
+    ]
+  },
+  {
+    "session_id": "20260523_173321",
+    "timestamp": "2026-05-23T17:33:27.195552",
+    "turn": 1,
+    "reason": "Post-treatment concern: customer experiencing swelling after treatment",
+    "transcript_so_far": [
+      {
+        "turn": 1,
+        "role": "customer",
+        "text": "I had a treatment last week and my face is still swollen. I'm really unhappy.",
+        "timestamp": "2026-05-23T17:33:21.064479"
+      }
+    ]
+  }
+]

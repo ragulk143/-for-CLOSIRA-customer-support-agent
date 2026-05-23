@@ -1,0 +1,96 @@
+{
+  "session_id": "20260523_100258",
+  "timestamp": "2026-05-23T10:08:17.365316",
+  "transcript": [
+    {
+      "turn": 0,
+      "role": "customer",
+      "text": "Hi, I'd like some information about your clinic.",
+      "timestamp": "2026-05-23T10:03:00.993723"
+    },
+    {
+      "turn": 0,
+      "role": "bloom",
+      "text": "Welcome to Bloom Aesthetics Clinic, where we offer premium aesthetic treatments for natural beauty. We're open from Monday to Saturday, 9:00 AM \u2013 7:00 PM, and closed on Sundays. You can book an appointment via WhatsApp or through our website at www.bloomaesthetics.com. What brings you to our clinic, and what are you interested in learning more about?",
+      "timestamp": "2026-05-23T10:03:00.993723"
+    },
+    {
+      "turn": 1,
+      "role": "customer",
+      "text": "Hi, what services do you offer?",
+      "timestamp": "2026-05-23T10:03:22.496456"
+    },
+    {
+      "turn": 1,
+      "role": "bloom",
+      "text": "At Bloom Aesthetics Clinic, we offer a range of services including Botox, Dermal Fillers, and free consultations with our trained aesthetic practitioners. Botox is used to relax facial muscles and reduce fine lines and wrinkles, while Dermal Fillers restore volume and smooth lines. We also offer a free 30-minute consultation to discuss your goals and recommend a treatment plan. Would you like to know more about a specific treatment or what brings you to consider aesthetic treatments?",
+      "timestamp": "2026-05-23T10:03:23.862722"
+    },
+    {
+      "turn": 2,
+      "role": "customer",
+      "text": "How much does Botox cost?",
+      "timestamp": "2026-05-23T10:05:50.650010"
+    },
+    {
+      "turn": 2,
+      "role": "bloom",
+      "text": "Our Botox treatments start at \u00a3200. The price may vary depending on the areas being treated and the number of sessions required. We offer Botox for forehead, frown lines, crow's feet, and bunny lines. If you're interested in learning more, I can also offer you a free consultation with one of our practitioners. Have you had any aesthetic treatments before?",
+      "timestamp": "2026-05-23T10:05:51.954849"
+    },
+    {
+      "turn": 3,
+      "role": "customer",
+      "text": "Where does your clinic located?",
+      "timestamp": "2026-05-23T10:06:35.438588"
+    },
+    {
+      "turn": 3,
+      "role": "bloom",
+      "text": "I'm not able to provide the exact location of our clinic as it's not specified in our information. However, you can find more details about our clinic and book an appointment through our website at www.bloomaesthetics.com or via WhatsApp. Would you like to book a consultation or learn more about our services?",
+      "timestamp": "2026-05-23T10:06:36.816943"
+    },
+    {
+      "turn": 4,
+      "role": "customer",
+      "text": "may I know your doctor's name?",
+      "timestamp": "2026-05-23T10:07:19.215729"
+    },
+    {
+      "turn": 4,
+      "role": "bloom",
+      "text": "I'm not able to provide the names of our doctors or practitioners as this information is not available in our data. If you have any specific questions about our treatments or services, I'd be happy to help. Alternatively, you can book a consultation with one of our trained aesthetic practitioners through our website or WhatsApp. Would you like to proceed with booking a consultation?",
+      "timestamp": "2026-05-23T10:07:20.653512"
+    }
+  ],
+  "qualification_data": {
+    "business_type": null,
+    "team_size": null,
+    "current_tools": null
+  },
+  "escalated": true,
+  "escalation_reason": "Out-of-scope question: request for specific staff names",
+  "sop_gaps": [],
+  "summary": {
+    "session_id": "20260523_100258",
+    "timestamp": "2026-05-23T10:08:15.953209",
+    "customer_intent": "The customer was seeking information about the clinic and its services, including pricing and location.",
+    "key_details_collected": {
+      "services_enquired": [
+        "Botox",
+        "Dermal Fillers"
+      ],
+      "qualification_data": {
+        "primary_interest": "Botox",
+        "prior_treatments": null,
+        "preferred_contact": null
+      },
+      "escalated": true,
+      "escalation_reason": "Out-of-scope question: request for specific staff names"
+    },
+    "sop_gaps": [],
+    "recommended_next_action": "Book free consultation",
+    "conversation_quality": "needs_review",
+    "notes": "Customer asked for doctor's name, which is not available in the provided data. Further human follow-up may be required to address customer's concerns and provide a personalized experience."
+  }
+}
